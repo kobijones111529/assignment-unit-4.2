@@ -1,0 +1,42 @@
+body {
+  margin: 48px;
+}
+
+header {
+  padding: 0.5rem 2rem;
+
+  border: 1px solid #18DFDD;
+  border-radius: 12px;
+
+  background-color: #18FFFD;
+
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  flex-flow: column;
+
+  color: white;
+
+  text-align: center;
+}
+
+.info h2, .info h3 {
+  padding: 16px;
+
+  border-radius: 12px;
+
+  background-color: #303030;
+  color: white;
+}
+
+figure {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+}
